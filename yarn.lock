@@ -1212,10 +1212,10 @@ pluralize@^8.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
-prisma2@2.0.0-preview022:
-  version "2.0.0-preview022"
-  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview022.tgz#959770a89696004411785cfb27a76ebc3eb889aa"
-  integrity sha512-esfFlVwGr/q5AoZFT+mf5FF+4bKYLIoqgfTNsrsodKzWnYR/JoTme2rO7FjM1U1jp80rCiX8RbcAvl6o/TG5zg==
+prisma2@2.0.0-preview025:
+  version "2.0.0-preview025"
+  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview025.tgz#09b5d97b209484c1afe7b0b4ba64bb3930d96701"
+  integrity sha512-mt3L4RMF8pt3IXYkmwaZzl+7sfQenGDwN2hKwbiH4ImW+rWUVPle8QIUIJQZS8taxPhbEtrEltckhv8o1t9dSw==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
