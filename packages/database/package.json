@@ -14,7 +14,7 @@
     "nexus-prisma": "^0.10.0"
   },
   "devDependencies": {
-    "prisma2": "2.0.0-preview022",
+    "prisma2": "2.0.0-preview025",
     "dotenv-cli": "^3.1.0"
   }
 }
