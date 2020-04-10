@@ -1,0 +1,19 @@
+
+{
+  "references": [
+    {
+      "path": "packages/backend"
+    },
+    {
+      "path": "packages/database"
+    },
+    {
+      "path": "packages/logger"
+    }
+  ],
+  "files": [],
+  "include": [],
+  "exclude": [
+    "**/node_modules"
+  ]
+}

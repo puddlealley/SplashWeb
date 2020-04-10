@@ -1,0 +1,11 @@
+{
+  "name": "logger",
+  "version": "0.1.1",
+  "private": true,
+  "main": "src/index.ts",
+  "dependencies": {
+    "winston-daily-rotate-file": "^4.4.2",
+    "winston": "^3.2.1",
+    "graphql-extensions": "^0.10.10"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "snag-management",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+
+    "run:backend:local": "dotenv -e packages/.env.local -- yarn workspace backend dev",
+    "run:backend:local:transpileonly": "dotenv -e packages/.env.local -- yarn workspace backend dev:transpileonly",
+
+    "deploy:database:local":"dotenv -e packages/.env.local -- yarn workspace database deploy",
+    "deploy:database:staging":"dotenv -e packages/.env.staging -- yarn workspace database dev:deploy",
+
+    "deploy:backend": "dotenv -e packages/.env.staging -- yarn workspace"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^3.1.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

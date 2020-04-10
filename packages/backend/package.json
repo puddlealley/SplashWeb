@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/app",
+    "dev:transpileonly": "ts-node --transpile-only src/app"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nexus": "^0.12.0-rc.14",
+    "nexus-prisma": "^0.11.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.2.0"
+  }
+}
