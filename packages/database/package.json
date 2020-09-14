@@ -15,6 +15,6 @@
   },
   "devDependencies": {
     "prisma2": "2.0.0-preview025",
-    "dotenv-cli": "^3.1.0"
+    "dotenv-cli": "^4.0.0"
   }
 }
