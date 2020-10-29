@@ -28,10 +28,17 @@
   dependencies:
     apollo-env "^0.6.1"
 
-"@prisma/client@^2.0.0-preview023":
-  version "2.0.0-preview023"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.0.0-preview023.tgz#d24515b3f62f1d3730fca7d07a43cff36e308f6c"
-  integrity sha512-R3e+CFr5HkDTzMYnNk9iYsjY76C9/3zxdUxmejD3hivJGJ6yEKq5p95gE3skkzWnj5BBa9tE15tNI7/uZZhv5A==
+"@prisma/client@^2.10.1":
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.10.1.tgz#96fe79ad0d7763d0eda1ea91870a8882e4dbb21f"
+  integrity sha512-VwasxCCwdRmrcVVoLwXTEbwrBiqOYr2Umqw9btvMvHGRhA1nRKCvmt7SCiCjGrx6CuC8eCG/HGxruv04001YKQ==
+  dependencies:
+    "@prisma/engines-version" "2.10.1-6-7d0087eadc7265e12d4b8d8c3516b02c4c965111"
+
+"@prisma/engines-version@2.10.1-6-7d0087eadc7265e12d4b8d8c3516b02c4c965111":
+  version "2.10.1-6-7d0087eadc7265e12d4b8d8c3516b02c4c965111"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.10.1-6-7d0087eadc7265e12d4b8d8c3516b02c4c965111.tgz#7f96aa61085fc803f81b3df0fa32297909ce4b08"
+  integrity sha512-OuOSTvEzXJwCJzNqZ9N/+J3lO64HgX9uGiVOuvlTrRSXoLZk0Q2IiLAx8qhY1U7jPpHJ7LTlZuGNScimqonpJg==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
