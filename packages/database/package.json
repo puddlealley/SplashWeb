@@ -11,7 +11,7 @@
     "@prisma/client": "^2.0.0-preview023",
     "graphql-yoga": "^1.18.3",
     "nexus": "^0.12.0",
-    "nexus-prisma": "^0.10.0"
+    "nexus-prisma": "^0.20.0"
   },
   "devDependencies": {
     "prisma2": "2.0.0-preview025",
